@@ -24,6 +24,17 @@
         <module>jar</module>
     </modules>
 
+    <distributionManagement>
+        <repository>
+            <id>avicus-repo</id>
+            <url>https://repo.avicus.net/content/repositories/releases-private/</url>
+        </repository>
+        <snapshotRepository>
+            <id>avicus-repo</id>
+            <url>https://repo.avicus.net/content/repositories/snapshots-private/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <prerequisites>
         <maven>3.3.3</maven>
     </prerequisites>
